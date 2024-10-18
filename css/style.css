@@ -1,0 +1,528 @@
+/* ロゴ */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ヘッダー */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #ffeded;
+    font-family: "Darumadrop One", sans-serif;
+}
+
+/* ヘッダー右側 */
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.welcome-message {
+    margin-right: 30px;
+    white-space: nowrap;
+}
+
+.kind-points {
+    font-size: 18px;
+    color: #3498db;
+    margin-right: 30px;
+}
+
+/* ログインアイコン */
+.login-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* メインコンテンツ */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* フッター */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffeded;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-menu li {
+    text-align: center;
+}
+
+.footer-menu li img {
+    width: 30px;
+    height: 30px;
+}
+
+/* フォーム */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* 全体 */
+body {
+    background-color: #fff7f7;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #3498db;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* テーブル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #ffeded;
+}
+
+/* 戻るボタン */
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}
+
+/* 項目メニュー */
+.menu {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    top: 50px;
+    right: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 8px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li a:hover {
+    color: #3498db;
+}
+
+/* ランキング*/
+.ranking-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ranking-container h1 {
+    margin-bottom: 20px;
+}
+
+.ranking-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ranking-container th, .ranking-container td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.ranking-container th {
+    background-color: #ffeded;
+}
+
+.ranking-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ranking-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ranking-container a:hover {
+    background-color: #2980b9;
+}
+
+.button-container {
+    text-align: center;
+}
+
+/* ログイン */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #2980b9;
+}
+
+.login-container a {
+    display: block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* 新規登録 */
+.register-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+}
+
+.register-container input {
+    width: 100%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color: #2980b9;
+}
+
+/* 画像とボタンを中央に配置 */
+#talk-section {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#talk-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Darumadrop One", sans-serif;
+}
+
+#talk-button:hover {
+    background-color: #2980b9;
+}
+
+.posts {
+    margin: 20px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.post-header-left {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.post-username {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.post-time {
+    font-size: 12px;
+    color: #777;
+}
+
+.post-menu {
+    position: relative;
+    margin-left: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.post-content {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.plus-button {
+    position: fixed;
+    bottom: 70px; 
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#post-form {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+/* 3点リーダーボタン */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #777;
+}
+
+.menu-content {
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    right: 0;
+    top: 20px;
+    display: none;
+    width: 50px; /* 追加 */
+  }
+
+.menu-content a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.menu-content a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* 管理者 */
+.admin-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 商品一覧 */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-item {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.product-item p {
+    color: #888;
+    font-size: 14px;
+}
+
+
